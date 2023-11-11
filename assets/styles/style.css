@@ -699,7 +699,7 @@ select option,
 }
 
 .progress {
-  background-color: rgba(68, 86, 108, 0.1);
+  background-color: #1e1e25;
   border-radius: 20px;
   height: 1.5rem;
   margin-bottom: 1.5rem;
@@ -716,7 +716,7 @@ select option,
   margin-bottom: 0;
 }
 .progress-bar {
-  background-color: #304CFD;
+  background-color: rgba(255, 255, 255, 0.26);
   border-radius: 20px;
   overflow: hidden;
   position: relative;
@@ -724,6 +724,7 @@ select option,
   z-index: 1;
 }
 .progress .progress-text {
+  color:#ffffff;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1126,7 +1127,9 @@ button:focus {
 }
 
 .box-gray {
-  background-color: #F5F8F9;
+  background: rgba(16, 14, 23, 0.63);
+
+border: 8px solid rgba(255, 255, 255, 0.26);
   border-radius: 30px;
   padding: 2rem 1.875rem;
 }
@@ -1529,7 +1532,9 @@ button:focus {
 }
 
 .case-item {
-  border: 3px solid #F5F8F9;
+  
+  border: 3px solid rgba(255, 255, 255, 0.26);
+  background-color: #100e17;
   border-radius: 30px;
   padding: 1.5rem;
   position: relative;
