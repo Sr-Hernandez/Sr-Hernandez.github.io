@@ -75,7 +75,9 @@ body {
 }
 
 .oculto{
-	display: none;
+  display: none;
+  /* visibility: hidden; */
+  /* max-height: 0px; */
 }
 
 
@@ -1418,7 +1420,7 @@ button:focus {
 .nav::before {
   
   content: '';
-  background-image: url(https://art-template.ru/vcard2/assets/images/nav-edge.svg);
+  background-image: url(nav-edge.svg);
   height: 100%;
   position: absolute;
   top: 0;
@@ -1542,12 +1544,13 @@ button:focus {
   margin-bottom: 0.5625rem;
 }
 .case-item__icon {
+  font-size: 6pt;
   height: 2.5rem;
   width: 2.5rem;
   margin-bottom: 1rem;
 }
 .case-item__caption {
-  font-size: 0.9375rem;
+  /* font-size: 0.9375rem; */
 }
 @media only screen and (max-width: 580px) {
   .case-item__caption {
