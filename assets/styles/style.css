@@ -716,7 +716,8 @@ select option,
   margin-bottom: 0;
 }
 .progress-bar {
-  background-color: rgba(255, 255, 255, 0.26);
+  color:#000;
+  background-color: #FF965D;
   border-radius: 20px;
   overflow: hidden;
   position: relative;
@@ -724,7 +725,7 @@ select option,
   z-index: 1;
 }
 .progress .progress-text {
-  color:#ffffff;
+  color:#000000;
   display: flex;
   align-items: center;
   justify-content: space-between;

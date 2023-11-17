@@ -31,11 +31,11 @@
     <meta property="og:site_name" content="vCard" />
 
 	<!-- Favicons -->
-	<link rel="apple-touch-icon" sizes="144x144" href="../assets/images/favicons/apple-touch-icon-144x144.png">
+	<!-- <link rel="apple-touch-icon" sizes="144x144" href="../assets/images/favicons/apple-touch-icon-144x144.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="../assets/images/favicons/apple-touch-icon-114x114.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="../assets/images/favicons/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="57x57" href="../assets/images/favicons/apple-touch-icon-57x57.png">
-	<link rel="shortcut icon" href="../assets/images/favicons/favicon.png" type="image/png">
+	<link rel="apple-touch-icon" sizes="57x57" href="../assets/images/favicons/apple-touch-icon-57x57.png"> -->
+	<link rel="shortcut icon" href="../assets/img/logo.png" type="image/png">
 
     <!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="../assets/styles/style.css"/>
@@ -66,8 +66,8 @@
 						
 		<div class="nav-wrap">
 			<ul class="nav">
-                <li class="nav__item" onclick="cambiar_Idioma(8)"><a id="parrafo_Español_4" class="active " >English</a></li>
-                <li class="nav__item" onclick="cambiar_Idioma(8)"><a id="parrafo_Ingles_4" class="active oculto" >Español</a></li>
+                <li class="nav__item" onclick="cambiar_Idioma(9)"><a id="parrafo_Español_4" class="active " >Change Language</a></li>
+                <li class="nav__item" onclick="cambiar_Idioma(9)"><a id="parrafo_Ingles_4" class="active oculto" >Cambiar Idioma</a></li>
 				<!-- <li class="nav__item"><a href="resume.html">Resume</a></li>
                 <li class="nav__item"><a href="portfolio.html">Portfolio</a></li>
                 <li class="nav__item"><a href="blog.html">Blog</a></li> -->
@@ -88,7 +88,8 @@
 				    </div>
 				    <div class="text-center">
 					    <h3 class="title sidebar__user-name"><span class="weight--500">Ángel</span> Hernández Urquijo</h3>
-					    <div class="badge badge--gray">Desarrollador</div>
+					    <div class="badge badge--gray" id="parrafo_Español_9">Desarrollador</div>
+					    <div class="badge badge--gray"  style="display: none;" id="parrafo_Ingles_9">Developer</div>
 							
 					    <!-- Social -->
 		                <div class="social">
@@ -131,18 +132,15 @@
 					<div class="pt-2 pt-sm-3">
 					    <p id="parrafo_Español_3"><strong>Ingeniero en sistemas computacionales</strong>, egresado del Tecnológico nacional
 							de México (Campus Cuauhtémoc) con mas de <strong>3</strong> años de experiencia trabajando como desarrollador.</p>
-					    <p id="parrafo_Ingles_3" class="oculto"><strong>Computer Systems Engineer</strong>," graduated from the National Technological Institute of Mexico 
-							(Cuauhtémoc Campus), with more than "3" years of experience working as a developer.<p></p>
-                        <p class="mb-0" id="parrafo_Español_6">Mi objetivo profesional es conseguir un trabajo 
-							
-							remoto en una empresa que comparta mis valores 
-							y tenga un impacto positivo en la sociedad. Busco una posición en 
-							la que pueda aplicar mis habilidades y experiencia para contribuir 
-							al éxito de la empresa mientras ayudo a las personas. 
-							Me gustaría trabajar en un ambiente desafiante y dinámico que 
-							me permita crecer profesionalmente y personalmente, y estoy 
-							dispuesto a poner todo mi empeño para cumplir con los objetivos
-							 de la empresa y superar las expectativas de los clientes.</p>
+
+					    <p id="parrafo_Ingles_3" class="oculto"><strong>Computer Systems Engineer</strong>, graduated from the National Technological Institute of Mexico 
+							(Cuauhtémoc Campus), with more than <strong>3</strong> years of experience working as a developer.<p></p>
+                        
+						
+						
+							<p class="mb-0" id="parrafo_Español_6">Mi objetivo profesional es encontrar un trabajo en una empresa con
+								 un entorno desafiante que fomente mi crecimiento profesional y personal. 
+							Estoy comprometido a cumplir con los objetivos y superar las expectativas.</p>
 				    <!-- </div> -->
                         <p class="mb-0 oculto" id="parrafo_Ingles_6">My professional objective is to 
 							secure a remote job at a company that shares my values and has a 
@@ -166,7 +164,7 @@
 								<img class="case-item__icon" src="full/html.png" alt="" />
 								<img class="case-item__icon" src="full/css.png" alt="" />
 								<img class="case-item__icon" src="full/js.png" alt="" />
-								<h3 class="title title--h3">HTML & CSS & JS</h3>
+								<h3 class="title title--h3" style="color:#FF965D">HTML & CSS & JS</h3>
 								<p class="case-item__caption" style="font-size: 11pt;">Experiencia en la creación de estructuras web sólidas y estilos atractivos para mejorar la experiencia del usuario. </p>
 							</div>
 						</div>
@@ -175,7 +173,7 @@
 						<div class="col-12 col-lg-6 case-item-wrap">
 							<div class="case-item">
 								<img class="case-item__icon" src="full/git.png" alt="" />
-								<h3 class="title title--h3">Git</h3>
+								<h3 class="title title--h3" style="color:#FF965D">Git</h3>
 								<p class="case-item__caption">Habilidades en control de versiones con Git, asegurando un flujo de trabajo colaborativo y rastreable.</p>
 							</div>
 						</div>
@@ -185,7 +183,7 @@
 							<div class="case-item">
 								<img class="case-item__icon" src="full/php.png" alt="" />
 								<img class="case-item__icon" src="full/laravel.png" alt="" />
-								<h3 class="title title--h3">PHP & Laravel</h3>
+								<h3 class="title title--h3" style="color:#FF965D">PHP & Laravel</h3>
 								<p class="case-item__caption">Experimentado en PHP, con un enfoque especializado en Laravel para construir aplicaciones web modernas y escalables.</p>
 							</div>
 						</div>
@@ -194,7 +192,7 @@
 						<div class="col-12 col-lg-6 case-item-wrap">
 							<div class="case-item">
 								<img class="case-item__icon"  src="full/aws.png" alt="" />
-								<h3 class="title title--h3">AWS</h3>
+								<h3 class="title title--h3" style="color:#FF965D">AWS</h3>
 								<p class="case-item__caption" style="font-size: 11pt;">Experiencia en 
 									implementación y gestión de instancias en el módulo EC2 de AWS, optimizando la infraestructura 
 									para un rendimiento óptimo.</p>
@@ -203,7 +201,7 @@
 						<div class="col-12 col-lg-6 case-item-wrap">
 							<div class="case-item">
 								<img class="case-item__icon" src="full/python.png" alt="" />
-								<h3 class="title title--h3">Python</h3>
+								<h3 class="title title--h3" style="color:#FF965D">Python</h3>
 								<p class="case-item__caption" style="font-size: 13pt;">Entusiasta de Python con un nivel básico, 
 									he desarrollado soluciones simples para diversas aplicaciones</p>
 							</div>
@@ -211,9 +209,11 @@
 						<div class="col-12 col-lg-6 case-item-wrap">
 							<div class="case-item">
 								<img class="case-item__icon" src="full/cs.png" alt="" />
-								<h3 class="title title--h3">C#</h3>
-								<p class="case-item__caption">Arquitecto de bases de datos MySQL, diseñando y 
-									optimizando esquemas para garantizar un rendimiento eficiente y seguro.</p>
+								<h3 class="title title--h3" style="color:#FF965D">C#</h3>
+								<p class="case-item__caption">Habilidades con C#, con enfoque especializado en el desarrollo de aplicaciones sólidas y eficientes. 
+									Experiencia significativa en la creación de soluciones escalables y modernas.
+
+								</p>
 							</div>
 						</div>
 					</div>	
@@ -224,34 +224,34 @@
 				    <div class="box-gray">
 					    <!-- Progress -->
 					    <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-							    <div class="progress-text"><span>SQL</span><span>80%</span></div>
+                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+							    <div class="progress-text"><span>SQL</span><span>75%</span></div>
 						    </div>
 						    <div class="progress-text"><span>SQL</span></div>
                         </div>
 										
 					    <!-- Progress -->
 					    <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-							    <div class="progress-text"><span>Graphic Design</span><span>75%</span></div>
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+							    <div class="progress-text"><span>MySql</span><span>70%</span></div>
 						    </div>
-						    <div class="progress-text"><span>Graphic Design</span></div>
+						    <div class="progress-text"><span>MySql</span></div>
                         </div>
 										
 					    <!-- Progress -->
 					    <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-							    <div class="progress-text"><span>Photoshop</span><span>90%</span></div>
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+							    <div class="progress-text"><span>Docker</span><span>60%</span></div>
 						    </div>
-						    <div class="progress-text"><span>Photoshop</span></div>
+						    <div class="progress-text"><span>Docker</span></div>
                         </div>
 										
 					    <!-- Progress -->
 					    <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-							    <div class="progress-text"><span>Illustrator</span><span>50%</span></div>
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+							    <div class="progress-text"><span>Linux</span><span>80%</span></div>
 						    </div>
-						    <div class="progress-text"><span>Illustrator</span></div>
+						    <div class="progress-text"><span>Linux</span></div>
                         </div>
                     </div>
 				</div>
@@ -295,12 +295,12 @@
 									of the frontend to enhance the user experience </p>								</article>
 											
 							<!-- Item -->
-							<article class="timeline__item">
+							<!-- <article class="timeline__item">
 								<a href="materialesdelnorte.mx"><h5 class="title title--h3 timeline__title">materialesdelnorte.mx</h5></a>
 								<span class="timeline__period">2013 — 2015</span>
 								<p class="timeline__description">Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti,
 									 quos dolores et quas molestias exceptur.</p>
-							</article>
+							</article> -->
 							<!-- <button onclick="cambiar_Idioma(2)">aljndsjasndjas</button> -->
 											
 							<!-- Item -->
@@ -361,7 +361,7 @@
 					document.getElementById("parrafo_Ingles_"+i).style.display = 'none';
 					
 					
-					console.log("flag falsa")
+					console.log("flag verdadera")
 				}
 				flag = false;	
 			}
@@ -372,6 +372,7 @@
 					
 					document.getElementById("parrafo_Ingles_"+i).style.display = 'block';
 					flag = true;
+					console.log("flag falsa")
 				}
 			}
 
